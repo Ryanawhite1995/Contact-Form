@@ -51,7 +51,7 @@ export default function Home() {
                     Message
                   </label>
                   <textarea
-                    className="textarea"
+                    className={styles.textarea}
                     id="message"
                     name="message"
                   ></textarea>
