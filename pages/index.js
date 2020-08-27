@@ -50,7 +50,12 @@ export default function Home() {
                   <label className={styles.label} htmlFor="message">
                     Message
                   </label>
-                  <textarea id="message" name="message"></textarea>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    cols="25"
+                  ></textarea>
                 </p>
                 <p>
                   <button type="submit">Send</button>
