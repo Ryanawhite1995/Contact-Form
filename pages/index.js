@@ -27,7 +27,11 @@ export default function Home() {
                 </p>
                 <p>
                   <label htmlFor="message">Message</label>
-                  <textarea id="message" name="message"></textarea>
+                  <textarea
+                    id="message"
+                    name="message"
+                    style="margin: 0px width: 177px; height: 160px;"
+                  ></textarea>
                 </p>
                 <p>
                   <button type="submit">Send</button>
