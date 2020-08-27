@@ -38,19 +38,20 @@ export default function Home() {
                   <label className={styles.label} htmlFor="name">
                     Name
                   </label>
-                  <input require type="text" id="name" name="name" />
+                  <input required type="text" id="name" name="name" />
                 </p>
                 <p>
                   <label className={styles.label} htmlFor="email">
                     Email
                   </label>
-                  <input type="text" id="email" name="email" />
+                  <input required type="text" id="email" name="email" />
                 </p>
                 <p>
                   <label className={styles.label} htmlFor="message">
                     Message
                   </label>
                   <textarea
+                    required
                     className={styles.textarea}
                     id="message"
                     name="message"
