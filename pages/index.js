@@ -39,7 +39,9 @@ export default function Home() {
                   <input type="text" id="name" name="name" />
                 </p>
                 <p>
-                  <label htmlFor="email">Email</label>
+                  <label className={styles.label} htmlFor="email">
+                    Email
+                  </label>
                   <input type="text" id="email" name="email" />
                 </p>
                 <p>

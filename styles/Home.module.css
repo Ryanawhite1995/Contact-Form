@@ -53,6 +53,9 @@
   line-height: 1.15;
   font-size: 4rem;
 }
+.label {
+  color: #ffffff;
+}
 
 .title,
 .description {
