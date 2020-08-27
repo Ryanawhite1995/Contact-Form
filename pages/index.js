@@ -51,10 +51,9 @@ export default function Home() {
                     Message
                   </label>
                   <textarea
+                    className="textarea"
                     id="message"
                     name="message"
-                    rows="4"
-                    cols="25"
                   ></textarea>
                 </p>
                 <p>

@@ -56,6 +56,11 @@
 .label {
   color: #ffffff;
 }
+.textarea {
+  margin: 0px;
+  width: 177;
+  height: 108;
+}
 
 .title,
 .description {
