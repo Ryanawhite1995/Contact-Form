@@ -28,7 +28,6 @@ export default function Home() {
           <div className={styles.grid}>
             <div className={styles.card}>
               <form
-                data-netlify-recaptcha="true"
                 action="/?success=true"
                 name="contact"
                 method="POST"
@@ -56,7 +55,6 @@ export default function Home() {
                 <p>
                   <button type="submit">Send</button>
                 </p>
-                <div data-netlify-recaptcha="true"></div>
               </form>
             </div>
           </div>
