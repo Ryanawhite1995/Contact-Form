@@ -60,6 +60,8 @@
   margin: 0px;
   width: 177px;
   height: 108px;
+  max-width: 177px;
+  max-height: 108px;
 }
 
 .title,
