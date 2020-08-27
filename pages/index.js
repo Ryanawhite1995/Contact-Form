@@ -36,7 +36,9 @@ export default function Home() {
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <p>
-                  <label htmlFor="name">Name</label>
+                  <label className={styles.label} htmlFor="name">
+                    Name
+                  </label>
                   <input type="text" id="name" name="name" />
                 </p>
                 <p>
@@ -46,7 +48,9 @@ export default function Home() {
                   <input type="text" id="email" name="email" />
                 </p>
                 <p>
-                  <label htmlFor="message">Message</label>
+                  <label className={styles.label} htmlFor="message">
+                    Message
+                  </label>
                   <textarea id="message" name="message"></textarea>
                 </p>
                 <p>
