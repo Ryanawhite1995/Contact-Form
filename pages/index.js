@@ -38,7 +38,7 @@ export default function Home() {
                   <label className={styles.label} htmlFor="name">
                     Name
                   </label>
-                  <input type="text" id="name" name="name" />
+                  <input require type="text" id="name" name="name" />
                 </p>
                 <p>
                   <label className={styles.label} htmlFor="email">
